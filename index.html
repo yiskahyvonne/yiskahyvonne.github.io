@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Free Human Design Chart from Yiskah Yvonne</title>
     <style>
         body {
@@ -9,17 +9,20 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             text-align: center;
         }
-
+        .content-container {
+            padding: 10px;
+            width: 100%;
+            max-width: 500px; 
+        }
         img {
             max-width: 100%;
             height: auto;
         }
-
         @media screen and (min-width: 768px) {
             body {
                 font-size: 14px;
@@ -31,7 +34,7 @@
     </style>
 </head>
 <body>
-    <div>
+    <div class="content-container">
         <p> 
             <a href="http://www.yiskahyvonne.com"> 
                 <img src="http://yiskahyvonne.github.io/2.png" /> 
