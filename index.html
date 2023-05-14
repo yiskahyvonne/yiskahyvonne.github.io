@@ -5,22 +5,40 @@
     <style>
         body {
             font-family: Garamond, serif;
-            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
         }
-		   img {
-            max-width: 300px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media screen and (min-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            img {
+                max-width: 300px;
+            }
         }
     </style>
 </head>
 <body>
     <div>
-		<center>
-		<p> <a href="http://www.yiskahyvonne.com"> <img src="http://yiskahyvonne.github.io/2.png" /> </a>
-        <p><h1>To get your free Human Design Chart, enter your info below.</h1></p>
-		<p>Enter your email to recieve special updates and promotions (this is optional).</p>
-		<p>
-		<script src="https://embed.bodygraphchart.com/v1/4197/js?token=1bb724ed-323c-4563-80a5-356b55fc315e" defer></script>
-		</center>
+        <p> 
+            <a href="http://www.yiskahyvonne.com"> 
+                <img src="http://yiskahyvonne.github.io/2.png" /> 
+            </a>
+        </p>
+        <h1>To get your free Human Design Chart, enter your info below.</h1>
+        <p>Enter your email to receive special updates and promotions (this is optional).</p>
+        <script src="https://embed.bodygraphchart.com/v1/4197/js?token=1bb724ed-323c-4563-80a5-356b55fc315e" defer></script>
     </div>
 </body>
 </html>
