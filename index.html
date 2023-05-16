@@ -47,6 +47,18 @@
             }
         }
     </style>
+	<script>
+    window.addEventListener('load', (event) => {
+        var chartContainer = document.getElementById('chart-container');
+        if(window.innerWidth < 768) {
+            // For smaller screens
+            chartContainer.style.height = '600px';
+        } else {
+            // For larger screens
+            chartContainer.style.height = '800px';
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="content-container">
