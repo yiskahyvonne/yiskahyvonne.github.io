@@ -45,7 +45,7 @@
     </style>
     <script>
     window.onload = function() {
-        var chartContainer = document.getElementById('chart-container');
+        var chartContainer = document.getElementById('widget-container'); // Corrected the ID here
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(mutation) {
                 if (mutation.type == "childList") {
